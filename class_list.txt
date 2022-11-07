@@ -1,0 +1,37 @@
+ 1    Who has 172.16.11.3? Tell 172.16.11.1
+ 2    172.16.11.3 is at f8:75:a4:ad:af:a6
+
+ 3    Who has 172.16.11.253? Tell 172.16.11.1
+ 4    172.16.11.253 is at 00:1d:46:f4:01:c1
+
+ 5    Who has 172.16.11.1? Tell 172.16.11.3
+ 6    172.16.11.1 is at 6c:f0:49:5e:44:76
+
+ 7    Who has 172.16.11.253? Tell 172.16.11.3
+ 8    172.16.11.253 is at 00:1d:46:f4:01:c1
+
+ 9    Who has 172.16.11.1? Tell 172.16.11.253
+10    172.16.11.1 is at 6c:f0:49:5e:44:76
+
+11    Who has 172.16.11.3? Tell 172.16.11.253
+12    172.16.11.3 is at f8:75:a4:ad:af:a6
+
+13    172.16.11.3 is at 00:1d:46:f4:01:c1
+14    172.16.11.1 is at 00:1d:46:f4:01:c1
+
+Nodes also generate unicast ARP requests to nodes that generated broadcast ARP requests
+and so the following classes are also included:
+
+15    Who has 172.16.11.3? Tell 172.16.11.1
+
+16    Who has 172.16.11.253? Tell 172.16.11.1
+
+17    Who has 172.16.11.1? Tell 172.16.11.3
+
+18    Who has 172.16.11.253? Tell 172.16.11.3
+
+19    Who has 172.16.11.1? Tell 172.16.11.253
+
+20    Who has 172.16.11.3? Tell 172.16.11.253
+
+Total classes: 20
